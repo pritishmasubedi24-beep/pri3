@@ -2,7 +2,7 @@ h1{color:rgba(68, 105, 79, 0.699);}
  p{font-size: 25px;color:#669469b4;}
 body{background-color:#87b19fe0;}
 
-.parent {
+.flex-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -10,14 +10,9 @@ body{background-color:#87b19fe0;}
   height: 100vh;}
 
 .flex-item {
-  background: tomato;
   padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
+  width: 2000px;
+  height: 200px;
+  background-color: #669469b4;
   text-align: center;
 }
